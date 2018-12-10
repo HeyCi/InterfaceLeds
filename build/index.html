@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contrôle des Leds</title>
+</head>
+
+<body>
+    <header>
+        <span class="logo"><img src=""></span>
+        <h1>Contrôle des LEDs</h1>
+        <form method="post" action="">
+            <select name="groupeLeds" id="groupeLeds">
+                <option value="crèche">crèche</option>
+                <option value="aquarium">aquarium</option>
+            </select>
+        </form>
+    </header>
+    <main>
+        <div class="led led1">
+            <h2>LED 1</h2>
+            <em>Lumière de l'étage</em>
+            <form method="post" action="">
+                <div>
+                    <label for="red">Rouge : </label>
+                    <input type="range" min="0" max="255">
+                </div>
+                <div>
+                    <label for="green">Vert : </label>
+                    <input type="range" min="0" max="255">
+                </div>
+                <div>
+                    <label for="blue">Bleu : </label>
+                    <input type="range" min="0" max="255">
+                </div>
+            </form>
+            <p>Aperçu : </p>
+            <!--insérer ici code aperçu couleur-->
+        </div>
+        <div class="led led2">
+            <h2>LED 2</h2>
+            <em>Lumière de la grange</em>
+            <form method="post" action="">
+                <label for="red">Rouge : </label>
+                <input type="range" min="0" max="255">
+                <label for="green">Vert : </label>
+                <input type="range" min="0" max="255">
+                <label for="blue">Bleu : </label>
+                <input type="range" min="0" max="255">
+            </form>
+            <p>Aperçu : </p>
+            <!--insérer ici code aperçu couleur-->
+        </div>
+    </main>
+    <footer>
+        <span class="logo"><img src=""></span>
+        <p>bas de page</p>
+    </footer>
+</body>
+
+</html>

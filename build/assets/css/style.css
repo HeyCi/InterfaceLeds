@@ -1,0 +1,35 @@
+body {
+  margin: 0; }
+
+/*#region header*/
+header {
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  header h1 {
+    color: white; }
+
+/*#endregion*/
+/*#region main*/
+.led {
+  margin-left: 5px; }
+
+h2 {
+  color: green;
+  margin: 30px 0 0 0; }
+
+em {
+  display: block;
+  color: green;
+  margin-bottom: 10px; }
+
+input {
+  vertical-align: middle; }
+
+/*#endregion*/
+/*#region footer*/
+/*#endregion*/
